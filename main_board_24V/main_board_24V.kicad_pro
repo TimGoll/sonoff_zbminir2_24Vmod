@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.127
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -58,52 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|106750000|68400000|9a5aa57b-fac3-44ff-8675-97700bed35a0|d5eb35df-6677-4a3b-a362-44e21619cb0d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|106750000|69375000|9a5aa57b-fac3-44ff-8675-97700bed35a0|8d58eb6f-0de2-4849-8f57-4dd510797e85",
-          ""
-        ],
-        [
-          "solder_mask_bridge|108600000|69375000|9a5aa57b-fac3-44ff-8675-97700bed35a0|b86d1403-1551-4e6e-b97f-7b89bf2dd44d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109550000|68400000|9a5aa57b-fac3-44ff-8675-97700bed35a0|c01d1982-3a8f-4596-85b6-c0561bab9373",
-          ""
-        ],
-        [
-          "solder_mask_bridge|110450000|69375000|9a5aa57b-fac3-44ff-8675-97700bed35a0|76417e32-0cad-4e41-a66f-cc66a2b1f9ad",
-          ""
-        ],
-        [
-          "solder_mask_bridge|117350000|73850000|0842595c-b8f2-481f-a181-c8c2bd78478e|d8a9551d-b125-4462-94cb-aa0d1d141d1d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|117350000|75850000|0842595c-b8f2-481f-a181-c8c2bd78478e|e6b6d1bb-d996-4cdd-87e9-58b7db3a126e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|117350000|77850000|0842595c-b8f2-481f-a181-c8c2bd78478e|04616a4b-a09f-4b91-99c1-32b234c2cacd",
-          ""
-        ],
-        [
-          "solder_mask_bridge|117350000|79850000|0842595c-b8f2-481f-a181-c8c2bd78478e|f08ee480-2e1b-414b-9cb9-069bd2b56d22",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118000000|77400000|0842595c-b8f2-481f-a181-c8c2bd78478e|ed1aea4b-7575-4945-8621-deec68b8f28f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118050000|85187500|0842595c-b8f2-481f-a181-c8c2bd78478e|287ac61b-68ae-41a2-84cc-b2748523a2d6",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -184,7 +139,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
